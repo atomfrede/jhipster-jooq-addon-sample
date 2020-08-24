@@ -17,7 +17,7 @@ import java.time.Instant;
  * Spring Data JPA repository for the {@link User} entity.
  */
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long>, CustomizedUserRepository {
 
     String USERS_BY_LOGIN_CACHE = "usersByLogin";
 

@@ -1,0 +1,40 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName jhipsterjooq
+    blueprints []
+    buildTool maven
+    cacheProvider ehcache
+    clientFramework angularX
+    clientPackageManager npm
+    clientTheme none
+    creationTimestamp 1598270420286
+    databaseType sql
+    devDatabaseType h2Disk
+    dtoSuffix DTO
+    embeddableLaunchScript false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    jhipsterVersion "6.10.1"
+    jwtSecretKey "NzllNWIzOGE5MTYxZTA3YTIwMmI0NjE3YmQ1Y2E3Mzc3NWFiNGMwZjgyNzg1ZjgyMDA1MDQ2ODNmYjU4MDg0ZTU3YjA4YTNkOTZlNTgwZjlhODlkYWNiZjU2MDk4ODM3NjczMDIwYzJkZTEyMjczZDg0NjBhZDI4OWJmZDEyOGU="
+    languages [en]
+    messageBroker false
+    nativeLanguage en
+    otherModules []
+    packageName com.mycompany.myapp
+    prodDatabaseType postgresql
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType false
+    skipClient false
+    skipServer false
+    skipUserManagement false
+    testFrameworks []
+    useSass true
+    websocket false
+  }
+}
+
